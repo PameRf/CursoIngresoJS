@@ -4,5 +4,6 @@ y luego mostrarlo por 'alert' al presionar el botón  'mostrar'*/
 function mostrar()
 {
 	alert("ok");
+	prompt ("Ingrese su nombre")
 }
 
