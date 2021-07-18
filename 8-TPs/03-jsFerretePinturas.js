@@ -17,5 +17,13 @@ function FahrenheitCentigrados ()
 
 function CentigradosFahrenheit () 
 {
+    let temperaturaF;
+    let temperaturaC;
+
+    temperaturaC = parseFloat(document.getElementById("txtIdTemperatura").value);
+    temperaturaF = temperaturaC * 1.8 + 32;
+
+    alert(temperaturaC + " grados Centigrados equivalen a "+ temperaturaF.toFixed(2) + " grados fahrenheit");
+
 	
 }
